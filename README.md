@@ -8,4 +8,5 @@ The email address should be written at a file named emails.txt, separated by lin
 > youremail@hostsite.com   
 > anothermail@hostsite.com   
 > (there should be an empty line at the end)
-2. (For now) Configure ssmtp and mutt by yourself.     
+2. (For now) Create the backups directory.
+3. (For now) Configure ssmtp and mutt by yourself.     
