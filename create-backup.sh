@@ -25,8 +25,10 @@ then
     else
         zip -r "./backups/$original.zip" "$original"
     fi
+    echo "./backups/$original.zip" > filename.txt
 else
     tar cf "./backups/$original.tar" "$original"
+    echo "./backups/$original.tar" > filename.txt
 fi
 
 echo "Compression/Archive Complete!"

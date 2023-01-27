@@ -10,3 +10,5 @@ cat emails.txt | while read line
 do
     cat message.txt | mutt -a $1 -s "Automatic Backup Mail by Mutt" -- $line  # $1 stands for the file to send
 done
+
+echo "Emails Sent!"
